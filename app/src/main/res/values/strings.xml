@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Travel Buddy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+
+    <string name="sites">Sites</string>
+    <string name="social">Social</string>
+    <string name="map">Map</string>
+    <string name="weather_climate"><![CDATA[Weather & Climate]]></string>
+    <string name="plan_your_trip">Plan your trip</string>
+    <string name="view_holidays">View Holidays</string>
+    <string name="currency_converter">Currency Converter</string>
+    <string name="provide_feedback">Provide Feedback</string>
+    <string name="contact_us">Contact us</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_test_map">Map</string>
+    <string name="call_us">Call us: 0711111111</string>
+    <string name="send_email">Send an Email at: travelbuddy@hotmail.com</string>
+    <string name="convert">Convert</string>
+    <string name="convertPrice">LKR 0</string>
+
+    <string name="usd_to_lkr">USD TO LKR</string>
+    <string name="number_of_days_for_the_trip">Number of days for the trip</string>
+    <string name="other_notes">Other notes</string>
+    <string name="number_of_places_to_visit">Number of places to visit</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="type_us_a_feedback_and_let_us_support_you">Type us a feedback and let us support you</string>
+    <string name="send">Send</string>
+
+    <string name="enter_city_or_district">Enter City or District</string>
+    <string name="search">Search</string>
+    <string name="welcome_to_travel_buddy">Welcome to Travel Buddy</string>
+    <string name="featured_places">FEATURED PLACES</string>
+    <string name="nearby_places">NEARBY PLACES</string>
+    <string name="hotels">HOTELS</string>
+    <string name="museums">MUSEUMS</string>
+    <string name="most_travelled">MOST TRAVELLED</string>
+    <string name="beaches">BEACHES</string>
+    <string name="religous_places">RELIGOUS PLACES</string>
+    <string name="tourist_events">TOURIST EVENTS</string>
+    <string name="other_apps">OTHER APPS</string>
+    <string name="contact_us_caps">CONTACT US</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="tools">TOOLS</string>
+    <string name="sigiriya">Sigiriya</string>
+    <string name="sigitiya_is_a_nice_place">Sigitiya is a nice place</string>
+    <string name="travel_buddy">Travel Buddy</string>
+</resources>

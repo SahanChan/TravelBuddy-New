@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProvideFeedback">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_us_a_feedback_and_let_us_support_you"
+        android:textSize="22sp"
+        android:id="@+id/title"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/feedbackAns"
+        android:layout_width="365dp"
+        android:layout_height="462dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="99dp"
+
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feedbackAns"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp">
+
+        <Button
+            android:id="@+id/sendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:text="@string/send"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/clearBtn"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/clear"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_sites"
+            android:icon="@drawable/ic_sites"
+            android:title="@string/sites" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/ic_social"
+            android:title="@string/social" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="@string/map" />
+
+        <item
+            android:id="@+id/nav_planYourTrip"
+            android:icon="@drawable/ic_plan_your_holiday"
+            android:title="@string/plan_your_trip" />
+
+        <item
+            android:id="@+id/nav_weatherNclimate"
+            android:icon="@drawable/ic_weather_climate"
+            android:title="@string/weather_climate" />
+
+        <item
+            android:id="@+id/nav_viewHolidays"
+            android:icon="@drawable/ic_holiday"
+            android:title="@string/view_holidays" />
+
+        <item
+            android:id="@+id/nav_currencyConverter"
+            android:icon="@drawable/ic_currency"
+            android:title="@string/currency_converter" />
+
+        <item
+            android:id="@+id/nav_provideFeedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/provide_feedback" />
+
+        <item
+            android:id="@+id/nav_contactUs"
+            android:icon="@drawable/ic_contactus"
+            android:title="@string/contact_us" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+    </group>
+</menu>

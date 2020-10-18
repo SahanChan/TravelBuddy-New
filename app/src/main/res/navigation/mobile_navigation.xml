@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.travelbuddy.ui.home.HomeFragment"
+        android:label="Travel Buddy"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_sites"
+        android:name="com.example.travelbuddy.ui.sites.SitesFragment"
+        android:label="Travel Buddy"
+        tools:layout="@layout/fragment_sites" />
+
+    <fragment
+        android:id="@+id/nav_social"
+        android:name="com.example.travelbuddy.ui.social.SocialFragment"
+        android:label="Travel Buddy"
+        tools:layout="@layout/fragment_social" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.travelbuddy.ui.map.MapFragment"
+        android:label="Travel Buddy"
+        tools:layout="@layout/fragment_map" />
+</navigation>
