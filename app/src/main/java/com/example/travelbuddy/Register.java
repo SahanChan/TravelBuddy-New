@@ -77,7 +77,7 @@ public class Register extends AppCompatActivity {
                     mPassword.setError("Password must be greater than 6 characters long");
                     return;
                 }
-                if(phoneNum.length() != 10 || phoneNum.length()!=11){
+                if(phoneNum.length() != 10 ){
                     mPhone.setError("Phone Number not valid");
                     return;
                 }
@@ -93,7 +93,7 @@ public class Register extends AppCompatActivity {
                         }
                         else{
                             Toast.makeText(Register.this, "Error Registering", Toast.LENGTH_SHORT).show();
-                            progressBar.setVisibility(View.INVISIBLE)   ;
+                            progressBar.setVisibility(View.INVISIBLE);
                         }
                     }
                 });
